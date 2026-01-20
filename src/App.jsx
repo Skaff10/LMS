@@ -49,6 +49,9 @@ import mahir from "/PP4.png";
 import apu from "/Apu.jpg";
 import Shawon from "/Shwon.jpg";
 import Sif from "/Sif.jpg";
+import mahir2 from "/dpks.jpg"
+
+import mylogo from "/logo2.png";
 const productCategories = [
   {
     name: "Fantasy Nature",
@@ -165,7 +168,7 @@ const IntroSection = () => (
         className="mb-8"
       >
         <img
-          src="/logo2.png"
+          src={mylogo}
           alt="Lumos"
           className="w-48 h-48 md:w-64 md:h-64 object-contain floating"
         />
@@ -501,7 +504,7 @@ const TeamSection = () => {
       name: "MD. Mahir Hossain Khan",
       role: "Co-Founder & CMO",
       desc: "Leading brand scaling and marketing.",
-      dp: mahir,
+      dp: mahir2,
     },
     {
       name: "Jahid Hasan Shawon",
